@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+    <!--  -->
+      <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+    <!--  -->
+    <link rel="stylesheet" href="/styles.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- <link rel="stylesheet" href="css.css" /> -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    
+    <title>Buses</title>
+  </head>
+  <section class="top-bar"></section>
+    <section id="navbar-main" style="position:sticky; top:0; z-index: 999;"></section>
+
+    <!-- coursal start-->
+    <div id="carouselInterval" class="carousel slide mb-2" data-mdb-ride="carousel" data-mdb-interval="false">
+      <div class="carousel-inner">
+          <div class="carousel-item active">
+              <img src="images/banner/hotel-book.jpg" class="d-block w-100" alt="Wild Landscape" />
+          </div>
+          <div class="carousel-item" data-mdb-interval="2000">
+              <img src="https://mdbcdn.b-cdn.net/img/new/slides/042.webp" class="d-block w-100" alt="Camera" />
+          </div>
+          <div class="carousel-item">
+              <img src="images/banner/holiday_packages.jpg" class="d-block w-100" alt="Exotic Fruits" />
+          </div>
+      </div>
+      <button class="carousel-control-prev" data-mdb-target="#carouselExampleInterval" type="button" data-mdb-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" data-mdb-target="#carouselExampleInterval" type="button" data-mdb-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+      </button>
+  </div>
+
+
+    <!-- coursal end -->
+
+    <!-- Icons Start -->
+    <booking class="booking"></booking>
+    <section class="booking-tab mt-4  mb-2 pb-4 container" style="box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;">
+        <form class="row g-3">
+          <div class="col-md-6">
+            <label for="source" class="form-label" style="    font-size: 13px;">From</label>
+            <input type="text" class="form-control" id="source" placeholder="Enter your location name"
+              style="    font-size: 13px;">
+          </div>
+          <div class="col-3">
+            <label for="destination" class="form-label" style="    font-size: 13px;">To:</label>
+            <input type="text" class="form-control" id="destination" placeholder="Enter Locatin"
+              style="    font-size: 13px;">
+          </div>
+          <div class="col-2" id="cout">
+            <label for="departure" class="form-label" style="    font-size: 13px;">DATE OF JOURNEY</label>
+            <input type="date" class="form-control" id="departure" placeholder="22-04-2023"
+              style="    font-size: 13px;">
+          </div>
+         
+          <div class="col-md-1">
+            <label>&nbsp;&nbsp;</label>
+            <button type="submit" class="btn btn-success">Search</button>
+          </div>
+        </form>
+      </section>
+   
+    <!-- Icons End -->
+
+ <!-- bar -->
+ <bar class="bar"  style="background-color: aliceblue;" ></bar>
+ <!-- bar -->
+
+    <div class="details"></div>
+
+    <!-- packages -->
+    <div class="packages mt-2 mb-4" ></div>
+    <!-- packages -->
+    
+    
+    <!-- follow and adventure -->
+
+    <div id="followPackage" style="display: none;"></div>
+    <!-- follow and adventure -->
+  <!-- powered by  -->
+  <div class="powered"></div>
+<!-- powered by end -->
+   
+    <!-- footer Start -->
+    <footer id="footer">
+    </footer>
+
+    <!-- footer End -->
+
+
+  </body>
+</html>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/js/bootstrap.bundle.min.js"></script>
+
+<script src="script.js" type="module"></script>
+<script src="./assets/js/slider.js"></script>

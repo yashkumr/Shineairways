@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+    <!--  -->
+      <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+    <!--  -->
+    <link rel="stylesheet" href="/styles.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- <link rel="stylesheet" href="css.css" /> -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="contact.css">
+    <style>
+      .banner {
+      height: 50vh;
+      
+      background: url('./images/franchise/franchise-Banner.jpg');
+      background-repeat: no-repeat;
+      background-position: left center;
+      /* background-size: cover; */
+
+    }
+
+    /* form css */
+    .frenchise {
+     
+    
+      font-family: 'Montserrat', sans-serif;
+      font-family: 'Roboto', sans-serif;
+      display: flex;
+      flex-direction: row-reverse;
+      width: 90%;
+      margin: auto;
+      gap: 20px;
+      /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+
+    }
+
+    .frenchise>div {
+    
+      width: 90%;
+      margin: auto;
+    }
+
+    
+
+    @media(max-width:1000px) {
+
+      .frenchise {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+      }
+      .frenchise-form {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+      }
+
+     
+    }
+
+    /* input css */
+    .subscribe {
+      height: 180px;
+      width: 80%;
+      display: flex;
+      margin: auto;
+      align-items: center;
+      box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    }
+
+    .subscribe>div {
+      width: 48%;
+      margin: auto;
+    }
+
+    .form-control {
+      display: block;
+      width: 100%;
+      padding: .375rem .75rem;
+      font-size: 1rem;
+      font-weight: 400;
+      line-height: 1.5;
+      color: #212529;
+      background-color: #fff;
+      background-clip: padding-box;
+      border: 4px solid #ced4da;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      border-radius: 1.25rem;
+      transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    }
+
+    .btn {
+      background-color: #060666;
+      display: inline-block;
+      font-weight: 400;
+      line-height: 1.5;
+      color: #212529;
+      text-align: center;
+      text-decoration: none;
+      vertical-align: middle;
+      cursor: pointer;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+
+      border: 1px solid transparent;
+      padding: .375rem .75rem;
+      font-size: 1rem;
+      border-radius: 4.25rem;
+      transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    }
+
+    .input-group .btn {
+      position: relative;
+      color: antiquewhite;
+      z-index: 2;
+    }
+
+    @media(max-width:554px) {
+      .subscribe {
+        display: flex;
+        flex-direction: column;
+      }
+
+    }
+  </style>
+  
+    <title>Shine Airways</title>
+  </head>
+  <body  style="background-color: rgb(243, 243, 243);">
+    <section class="top-bar"></section>
+    <section id="navbar-main" style="position:sticky; top:0; z-index: 999;"></section>
+
+    <!-- coursal start-->
+    
+    <!-- coursal end -->
+  <!-- booking icon -->
+  <booking class="booking" style="display: none;"></booking>
+  <!-- booking icon end -->
+   
+    
+    
+ <!-- bar -->
+ <bar class="bar"  style="background-color: aliceblue; display: none;" ></bar>
+ <!-- bar -->
+ 
+    <div class="details" style="display: none;"></div>
+
+    <!-- packages -->
+    <div class="packages mt-2 mb-4" style="display: none;" ></div>
+    <!-- packages -->
+    
+    
+    <!-- follow and adventure -->
+
+    <div id="followPackage" style="display: none;"></div>
+    <!-- follow and adventure -->
+
+<!-- fRANCHISE -->
+
+<section>
+  <div class="banner">
+
+  </div>
+</section>
+<section>
+
+  <div class="frenchise" style="margin-top: 4rem;">
+
+    <div class="frenchise-info" style=" padding: 25px;">
+      
+      <h1 style="    color: #1e1ea1;">Let’s entrepreneur it up! Contact us for any franchise enquiry.
+      </h1>
+      <br>
+      <h5>Explore shineairways  Franchise Opportunities and Unleash Your Inner Entrepreneur:</h5><br>
+      <p class="text-muted" style="text-justify: center;">
+        Shine Airways provides an exciting opportunity for entrepreneurs to invest in a thriving industry and build
+        profitable businesses. Our streamlined single-click flight bookings and unbeatable vacation packages make us a
+        leader in the travel and tourism industry.
+
+        Our vision goes beyond just providing exceptional travel experiences. We believe in creating employment
+        opportunities in every sector, and with a Shine Airways franchise, you can contribute to the growth of the
+        community while securing a high return on investment in just 18 months .
+
+        So why not take the leap and become a business entrepreneur with Shine Airways? Contact us today to learn
+        more about our franchise opportunities and start making your dreams a reality. With our support and your
+        entrepreneurial spirit, the sky's the limit!
+      </p>
+      <br>
+      <h1 style="    color: #00339c;">
+        Contact Number
+      </h1><br>
+      <p class="text-muted">+91 9335140873</p>
+      <br>
+      <hr>
+
+      <h1 style="    color: #00339c;;">Email Id</h1>
+      <h5 class="text-muted">franchise@shineairways.com</h5>
+      <hr>
+
+
+
+    </div>
+    <div class="frenchise-form" style=" background-color: #dfdfdf;; color: rgb(84, 80, 80);border-radius: 24px; ;">
+      <form class="row g-3" style="padding: 25px">
+        <h1 style="color: #00339c;font-weight: bold;">Let’s Get
+          </h1>
+          <h1 style="color: #00339c; font-weight: bold;">You Started.</h1>
+        <div class="col-md-6">
+          <label for="inputEmail4" class="form-label">Name</label>
+          <input type="text" class="form-control" id="inputname" placeholder="Enter Your Name" style=" border: none; border-radius: 0px;">
+        </div>
+        <div class="col-md-6">
+          <label for="inputPassword4" class="form-label">Email</label>
+          <input type="email" class="form-control" id="inputPassword4" placeholder="Enter Your Mail" style=" border: none; border-radius: 0px;">
+        </div>
+
+
+        <div class="col-md-6">
+          <label for="inputEmail4" class="form-label">Phone Number</label>
+          <input type="number" class="form-control" id="inputEmail4" placeholder="Enter Number" style=" border: none; border-radius: 0px;">
+        </div>
+        <div class="col-md-6">
+          <label for="inputPassword4" class="form-label">Address</label>
+          <input type="name" class="form-control" id="inputPassword4" placeholder="Enter Address" style="  border: none; border-radius: 0px;">
+        </div>
+        <div class="col-md-6">
+          <label for="inputPassword4" class="form-label">Enter City</label>
+          <input type="name" class="form-control" id="inputPassword4" placeholder="City" style="border: none;  border-radius: 0px;">
+        </div>
+        <div class="col-md-6">
+          <label for="inputPassword4" class="form-label">Enter Pin Code</label>
+          <input type="name" class="form-control" id="inputPassword4" placeholder="Pincode" style="border: none; border-radius: 0px;">
+        </div>
+        <div class="col-md-6">
+          <label for="inputPassword4" class="form-label">Seclect State</label>
+          <select style=" width: 50%;height: 40px; border: none;">
+            <option selected>Select State</option>
+            <option value="9">Delhi</option>
+            <option value="1">Noida </option>
+            
+            <option class="2">Mathura</option>
+            <option value="3">Mubai</option>
+            
+            <option class="4">Bangalore</option>
+            <option value="5">Haidrabad </option>
+          </select>
+        </div>
+
+        <div class="col-md-6">
+          <label for="inputPassword4" class="form-label">Choose option</label>
+          <select style=" width: 50%;height: 40px;  border: none;">
+            
+            <option class="selected-value">choose option</option>
+            <option value="1">Job </option>
+            
+            <option class="2">Business</option>
+            <option value="3">Self E,ployed</option>
+            
+            <option class="4">Other</option>
+           
+          </select>
+        </div>
+
+
+
+
+
+
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Messages</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Why Shine Air Ways" style="border-radius: 0px; border: none; "></textarea>
+        </div>
+        <div class="col-md-6">
+          <label for="inputEmail4" class="form-label">Enter Captcha Code</label>
+          <input type="code" class="form-control" id="inputEmail4" placeholder="Captcha Code" style="border-radius: 0px; border: none; ">
+        </div>
+
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck" style="border-radius: 0px; border: none; ">
+            <label class="form-check-label" for="gridCheck">
+              Check me out
+            </label>
+          </div>
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn"
+            style="background-color:rgb(79, 7, 211); color: rgb(241, 238, 238); padding: 10px 35px; border-radius: 0px; border: none; ">Submit</button>
+        </div>
+      </form>
+
+    </div>
+  </div>
+
+
+</section>
+<section>
+  <!-- Subscribe section -->
+  <div class="subscribe">
+    <div>
+      <h2>SUBSCRIBE TO OUR NEWS LETTER</h2>
+    </div>
+    <div class="input-group hundread">
+      <input type="text" class="form-control" placeholder="Enter Mail" aria-label="" aria-describedby="button-addon2">
+      <button class="btn btn-outline-secondary ipt" type="button" id="button-addon2">Button</button>
+    </div>
+  </div>
+  <hr>
+
+</section>
+
+<!-- FRANCHISE END -->
+
+<!-- powered by  -->
+  <div class="powered" style="display: none;"></div>
+<!-- powered by end -->
+    <!-- footer Start -->
+    <!-- <div class="footers mt-1"></div>-->
+
+
+    <footer id="footer">
+    </footer>
+
+    <!-- footer End -->
+
+
+  </body>
+</html>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/js/bootstrap.bundle.min.js"></script>
+
+<script src="script.js" type="module"></script>
+<script src="./assets/js/slider.js"></script>

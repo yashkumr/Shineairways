@@ -1,0 +1,6 @@
+[08-May-2023 10:52:40 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/wtuvsfdowreq/public_html/dilip.jrinfotechs.com/career/connection.php:13
+Stack trace:
+#0 /home/wtuvsfdowreq/public_html/dilip.jrinfotechs.com/career/connection.php(13): mysqli_connect()
+#1 /home/wtuvsfdowreq/public_html/dilip.jrinfotechs.com/career/reservation.php(5): include('/home/wtuvsfdow...')
+#2 {main}
+  thrown in /home/wtuvsfdowreq/public_html/dilip.jrinfotechs.com/career/connection.php on line 13

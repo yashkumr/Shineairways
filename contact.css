@@ -1,0 +1,29 @@
+.social{
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+}
+.social>div{
+
+  display: flex;
+  gap: 0px;
+  align-items: center;
+}
+.social-icon {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #01abff;
+  text-align: center;
+  line-height: 50px;
+  margin-right: 10px;
+}
+
+.social-icon i {
+  color: #fff;
+  font-size: 20px;
+}
+.social-icon+div>p{
+  color: black;
+}

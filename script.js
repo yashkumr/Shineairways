@@ -1,0 +1,24 @@
+import bookingicon from "./components/booking-icon.js";
+import footer from "./components/footers.js";
+import navbar from "./components/navbar.js";
+import details from "./components/details.js";
+import packages from "./components/packages.js";
+import bar from "./components/bar.js";
+import contact from "./components/contact.js";
+import followandadventure from "./components/followandadventure.js";
+import poweredby from "./components/poweredby.js";
+import topbar from "./components/topbar.js";
+import blogs from "./components/blog.js";
+
+// document.body.innerHTML = navbar();
+document.querySelector('#navbar-main').innerHTML = navbar();
+document.querySelector('.booking').innerHTML = bookingicon();
+document.querySelector('.details').innerHTML = details();
+document.querySelector('.packages').innerHTML = packages();
+document.querySelector('.bar').innerHTML = bar();
+// document.querySelector('#contact').innerHTML = contact();
+document.querySelector('.powered').innerHTML = poweredby();
+document.querySelector('.top-bar').innerHTML = topbar();
+document.querySelector('#followPackage').innerHTML = followandadventure();
+document.querySelector('#footer').innerHTML = footer();
+document.querySelector('#blogs').innerHTML = blogs();
